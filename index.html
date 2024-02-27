@@ -43,6 +43,8 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+  <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/4.12.0/gradio.js"></script>
+
 </head>
 <body>
 
@@ -108,15 +110,16 @@
                   </div>
 
                   <div class="column has-text-centered">
+                        
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/****.pdf" target="_blank"
+                        <a href="https://arxiv.org/abs/2402.16641" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                         </span>
-                        <span>ArXiv</span>
+                        <span>ArXiv (Abstract)</span>
                       </a>
                     </span>
 
@@ -150,7 +153,7 @@
                       <span class="icon">
                         <i class="fas fa-smile"></i>
                       </span>
-                      <span>Demo</span>
+                      <span>HF Demo</span>
                     </a>
                   </span>
 
@@ -297,7 +300,7 @@
       <!-- Your image here -->
       <img src="static/images/micbench-result.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-        Results of MICBecnch.
+        Results of MICBench.
       </h2>
     </div>
   </div>
@@ -310,13 +313,14 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@article{wu2023qalign,
-  title={Towards Open-ended Visual Quality Comparison},
-  author={Wu, Haoning and Zhu Hanwei, and Zhang, Zicheng and Zhang, Erli and Chen, Chaofeng and Li, Chunyi and Liao, Liang and Wang, Annan and  Sun, Wenxiu and Yan, Qiong and Liu, Xiaohong and Zhai, Guangtao and and Wang, Shiqi and Lin, Weisi},
-  journal={arXiv preprint arXiv:***},
-  year={2024},
-  institution={Nanyang Technological University and City Univeristy of Hong Kong and Shanghai Jiao Tong University and Sensetime Research},
-  note={Equal Contribution by Wu, Haoning and Zhu Hanwei and Zhang, Zicheng. Corresponding Authors: Wang, Shiqi and Lin, Weisi.}
+      <pre><code>
+      @misc{wu2024openended,
+      title={Towards Open-ended Visual Quality Comparison}, 
+      author={Haoning Wu and Hanwei Zhu and Zicheng Zhang and Erli Zhang and Chaofeng Chen and Liang Liao and Chunyi Li and Annan Wang and Wenxiu Sun and Qiong Yan and Xiaohong Liu and Guangtao Zhai and Shiqi Wang and Weisi Lin},
+      year={2024},
+      eprint={2402.16641},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 </code></pre>
     </div>
