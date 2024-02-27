@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Towards Open-ended Visual Quality Comparison</title>
+  <link rel="icon" type="image/x-icon" href="static/images/logo.pic.jpg">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Towards Open-ended Visual Quality Comparison</h1>
+            <div class="is-size-5 publication-authors">
+<!-- Paper authors -->
+<span class="author-block">
+  <a href="https://teowu.github.io" target="_blank">Haoning Wu</a><sup>1*</sup>,
+</span>
+<span class="author-block">
+  <a href="https://github.com/h4nwei" target="_blank">Hanwei Zhu</a><sup>2*</sup>,
+</span>
+<span class="author-block">
+  <a href="https://github.com/zzc-1998" target="_blank">Zicheng Zhang</a><sup>3*</sup>,
+</span>
+<span class="author-block">
+  <a href="https://github.com/ZhangErliCarl/" target="_blank">Erli Zhang</a><sup>1</sup>,
+</span>
+<span class="author-block">
+  <a href="https://chaofengc.github.io" target="_blank">Chaofeng Chen</a><sup>1</sup>,
+</span>
+<span class="author-block">
+  <a href="https://liaoliang92.github.io" target="_blank">Liang Liao</a><sup>1</sup>,
+</span>
+<span class="author-block">
+  <a href="https://github.com/lcysyzxdxc" target="_blank">Chunyi Li</a><sup>3</sup>,
+</span>
+<span class="author-block">
+  <a href="https://github.com/AnnanWangDaniel" target="_blank">Annan Wang</a><sup>1</sup>,
+</span>
+<span class="author-block">
+  <a href="https://wenxiusun.com" target="_blank">Wenxiu Sun</a><sup>4</sup>,
+</span>
+<span class="author-block">
+  <a href="https://scholar.google.com/citations?user=uT9CtPYAAAAJ&hl=en" target="_blank">Qiong Yan</a><sup>4</sup>,
+</span>
+<span class="author-block">
+  <a href="https://jhc.sjtu.edu.cn/~xiaohongliu/" target="_blank">Xiaohong Liu</a><sup>3</sup>,
+</span>
+<span class="author-block">
+  <a href="https://ee.sjtu.edu.cn/en/FacultyDetail.aspx?id=24&infoid=153&flag=153" target="_blank">Guangtao Zhai</a><sup>3#</sup>,
+</span>
+<span class="author-block">
+  <a href="https://www.cs.cityu.edu.hk/~shiqwang/" target="_blank">Shiqi Wang</a><sup>2#</sup>,
+</span>
+<span class="author-block">
+  <a href="https://personal.ntu.edu.sg/wslin/Home.html" target="_blank">Weisi Lin</a><sup>1#</sup>,
+</span>
+</div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Nanyang Technological University</span>
+                    <span class="author-block"><sup>2</sup>City University of Hong Kong</span>
+                    <span class="author-block"><sup>3</sup>Shanghai Jiao Tong University</span>
+                    <span class="author-block"><sup>4</sup>Sensetime Research</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Equal Contribution.  <sup>#</sup>Corresponding Author(s).</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/****.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>ArXiv</span>
+                      </a>
+                    </span>
+
+                    <!-- huggingface -->
+                    <span class="link-block">
+                      <a href="https://huggingface.co/q-future/co-instruct" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-smile"></i>
+                      </span>
+                      <span>Co-Instruct (Model)</span>
+                    </a>
+                  </span>
+                      
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/Q-Future/Co-Instruct" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- huggingface -->
+                    <span class="link-block">
+                      <a href="https://huggingface.co/spaces/q-future/Co-Instruct" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-smile"></i>
+                      </span>
+                      <span>Demo</span>
+                    </a>
+                  </span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section"  style="background-color:#efeff081">
+    <div class="container is-max-desktop" id="gradio">
+      <gradio-app src="https://q-future-Co-Instruct.hf.space"></gradio-app>
+    </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Comparative settings (e.g., pairwise choice, listwise ranking) have been adopted by a wide range of subjective studies for image quality assessment (IQA), as it inherently standardizes the evaluation criteria across different observers and offers more clear-cut responses. In this work, we extend the edge of emerging large multi-modality models (LMMs) to further advance visual quality comparison into open-ended settings, that 1) can respond to open-range questions on quality comparison; 2) can provide detailed reasonings beyond direct answers. To this end, we propose the Co-Instruct. To train this first-of-its-kind open-source open-ended visual quality comparer, we collect the Co-Instruct-562K dataset, from two sources: (a) LMM-merged single image quality description, (b) GPT-4V "teacher" responses on unlabeled data. Furthermore, to better evaluate this setting, we propose the MICBench, the first benchmark on multi-image comparison for LMMs. We demonstrate that Co-Instruct not only achieves 30% higher superior accuracy than state-of-the-art open-source LMMs but also outperforms GPT-4V (its teacher) on both existing related benchmarks and the proposed MICBench."
+          </p>
+        </div>
+        <img src="static/images/teaser.png" , width="800" />
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+  
+<!-- Teaser -->
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-three-fifths">
+          <h5 class="title">Motivation</h5>
+          <div class="content has-text-justified">
+            <p>
+              The motivation of open-ended visual quality comparison: comparative settings can effectively avoid the \textbf{ambiguity on absolute evaluations} 
+              for single images, and provide more clear-cut judgements to serve as downstream guidances.
+            </p>
+          </div>
+          <img src="static/images/motivation.png" , width="1400" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaser -->
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-three-fifths">
+          <h5 class="title">Co-Insturct-562K</strong></h5>
+          <div class="content has-text-justified">
+            <p>
+              We adopt two non-perfect supervisors: <em>(1)</em> <strong>Merge2Compare:</strong> Originated from single image human quality descriptions of 19K images in Q-Pathway, we randomly match them into 100K groups, 
+              removing the most similar descriptions using a text embedding model. Similar to the construction of LLaVA-150K, we prompt a single-modal LLM to compare multiple human descriptions in a group, 
+              and merge them into 100K pseudo comparisons. <em>(2)</em> <strong>Teach2Compare:</strong> Observing that GPT-4V has especially high accuracy on pairwise settings among existing LMMs, 
+              we leverage GPT-4V responses to expand our dataset. We collect 9K unlabeled images and match them into 30K image groups (2-4 images per group) and obtain GPT-4V responses on both caption-like general comparisons 
+              and question-answer pairs for comparisons. By integrating Q-Instruct-200K (on single images), Merge2Compare, and Teach2Compare we construct the <strong>Co-Instruct-562K</strong>, 
+              the first instruction tuning dataset designed for open-ended multi-image quality comparison.
+            </p>
+          </div>
+          <img src="static/images/dataset.png" , width="1400" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaser -->
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-three-fifths">
+          <h5 class="title">Structure</h5>
+          <div class="content has-text-justified">
+            <p>
+              The Co-Instruct is fine-tuned after the released checkpoint of mPLUG-Owl2, with LLaMA-2 as LLM and CLIP-ViT-L14 as visual embedding module. 
+              We further adopt another widely-used abstractor structure to reduce token numbers before feeding the visual embeddings to LLM, so as to easily adapt to multi-image scenarios.
+            </p>
+          </div>
+          <img src="static/images/framework.png" , width="900" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaser -->
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-three-fifths">
+          <h5 class="title">MICBench</h5>
+          <div class="content has-text-justified">
+            <p>
+              we build the MICBecnch to cover the open-ended evaluation settings on <strong>groups of three or four images</strong>, as a complementary of existing evaluation settings.
+              It contains 2,000 groups of open-range questions equipped with multiple candidates, including Sourcing Diverse Image Groups and Multi-choice Questions (MCQs).
+            </p>
+          </div>
+          <img src="static/images/micbench.png" , width="900" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/Q-A1.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Results on <span style="font-style: italic;">Q-Bench<sup style="font-family: monospace;">PAIR</sup>-A1</span>.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/Q-A2.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Results on <span style="font-style: italic;">Q-Bench<sup style="font-family: monospace;">PAIR</sup>-A2</span>.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/2afc.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Results on 2AFC-LMM.
+       </h2>
+     </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/micbench-result.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Results of MICBecnch.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{wu2023qalign,
+  title={Towards Open-ended Visual Quality Comparison},
+  author={Wu, Haoning and Zhu Hanwei, and Zhang, Zicheng and Zhang, Erli and Chen, Chaofeng and Li, Chunyi and Liao, Liang and Wang, Annan and  Sun, Wenxiu and Yan, Qiong and Liu, Xiaohong and Zhai, Guangtao and and Wang, Shiqi and Lin, Weisi},
+  journal={arXiv preprint arXiv:***},
+  year={2024},
+  institution={Nanyang Technological University and City Univeristy of Hong Kong and Shanghai Jiao Tong University and Sensetime Research},
+  note={Equal Contribution by Wu, Haoning and Zhu Hanwei and Zhang, Zicheng. Corresponding Authors: Wang, Shiqi and Lin, Weisi.}
+}
+</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
